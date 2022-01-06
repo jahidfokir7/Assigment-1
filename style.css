@@ -1,3 +1,36 @@
 body{
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.box{
+    font-size: 50px;
+    border-left: 7px solid;
+    
+}
+.pink-colur{
+    color: brown;
+}
+p{
+    font-size: 20px;
+}
+section{
+   display: flex;
+   margin-bottom: 150px;
+   
+}
+.half-width{
+    width: 50%;
+   padding-left: 7%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+   text-decoration: cornsilk;
+   background-image: linear-gradient(tomato,rgb(184, 73, 91));
+   padding: 10px 40px;
+   color: rgb(189, 184, 173);
+   font-weight: 700;
+   border-radius: 5px;
+
 }

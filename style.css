@@ -2,35 +2,142 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.box{
-    font-size: 50px;
+ /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< section-1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.top-banner{
+    display: flex;
+    margin-bottom: 150px;
+}
+.wcl-box{
+    margin-top: 100px;
+    padding-left: 10px;
     border-left: 7px solid;
+    border-image: linear-gradient(rgb(197, 62, 47), tomato);
+    border-image-slice: 1;
     
 }
 .pink-colur{
-    color: brown;
+    color: coral;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 50px;
 }
 p{
     font-size: 20px;
 }
-section{
-   display: flex;
-   margin-bottom: 150px;
-   
-}
-.half-width{
+.half-width-1{
     width: 50%;
-   padding-left: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.half-width img{
+.half-width-1 img{
     width: 80%;
+    margin-top: 70px;
 }
-.link-button{
-   text-decoration: cornsilk;
-   background-image: linear-gradient(tomato,rgb(184, 73, 91));
-   padding: 10px 40px;
-   color: rgb(189, 184, 173);
-   font-weight: 700;
-   border-radius: 5px;
+.button-link{
+    text-decoration: cornsilk;
+    background-image: linear-gradient(rgb(190, 64, 42),rgb(223, 162, 49));
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 5px;
+    
 
 }
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< section-2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.half-width-2{
+    width: 100%;
+}
+.half-width-2 img{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.algin{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.rad{
+    color: coral;
+}
+.half-item-1{
+    width: 80%;
+    margin-left:2% ;
+    margin-right:2% ;
+    padding: 50px;
+    background-color: rgb(192, 236, 236);
+    border-radius:10px ;
+}
+.half-item-2{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 50px;
+    background-color: rgb(129, 129, 230);
+    border-radius: 10px;
+}
+.half-item-3{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 50px;
+    background-color: rgb(226, 143, 223);
+    border-radius: 10px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< section-3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.half-width-3{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-right: 5%;
+    
+}
+.section-3 img{
+    width: 60%;
+    margin-left: 30%;
+}
+.part-3{
+    margin-top: 3%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 50px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< section-5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.algin-1{
+    text-align: center;
+    padding-bottom: 50px;
+    position:center;
+}
+.section-5 img{
+    width: 60%;
+    margin-left: 30%;
+}
+.secation-5-2{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 20%;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< section-6>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.last-one img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 60px;
+}
+.last{
+    background: black;
+}
+.white{
+    color: white;
+}
+
+    
+    
+    
+
